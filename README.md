@@ -1,4 +1,4 @@
-# 🔐 Stealth Chat - Ultra-Secure Anonymous Messaging Platform
+# 🕵️ Stealth Chat - Ultra-Secure Anonymous Messaging Platform
 
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)](https://flask.palletsprojects.com/)
@@ -32,6 +32,155 @@
 
 ---
 
+## 📸 Application Screenshots
+
+### 🔐 Login & Authentication Flow
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/login.png" alt="Secure Login Interface" width="400"/>
+      <br/>
+      <strong>Secure Login Interface</strong>
+      <br/>
+      <em>Military-grade authentication with cyberpunk aesthetics</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/session.png" alt="Session Creation" width="400"/>
+      <br/>
+      <strong>Session Creation</strong>
+      <br/>
+      <em>Generate secure encrypted chat rooms instantly</em>
+    </td>
+  </tr>
+</table>
+
+### 💬 Core Messaging Features
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/chat_interface.png" alt="Main Chat Interface" width="400"/>
+      <br/>
+      <strong>Main Chat Interface</strong>
+      <br/>
+      <em>Real-time encrypted messaging with intuitive UX</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/file_sharing.png" alt="Secure File Sharing" width="400"/>
+      <br/>
+      <strong>Encrypted File Sharing</strong>
+      <br/>
+      <em>Upload and share files up to 16MB with AES-256 encryption</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/message_actions.png" alt="Message Management" width="400"/>
+      <br/>
+      <strong>Message Management</strong>
+      <br/>
+      <em>Copy, delete, and manage messages with hover actions</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/special_messages.png" alt="Special Message Types" width="400"/>
+      <br/>
+      <strong>Special Message Types</strong>
+      <br/>
+      <em>Whisper and alert messages with unique behaviors</em>
+    </td>
+  </tr>
+</table>
+
+### 🛡️ Advanced Security Features
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/qr_access.png" alt="QR Code Access" width="400"/>
+      <br/>
+      <strong>QR Code Access</strong>
+      <br/>
+      <em>Share secure session links instantly via QR codes</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/session_status.png" alt="Session Status" width="400"/>
+      <br/>
+      <strong>Session Status Monitor</strong>
+      <br/>
+      <em>Real-time monitoring of active sessions and security metrics</em>
+    </td>
+  </tr>
+</table>
+
+### ⚡ Administrative Power Tools
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/admin_commands.png" alt="Admin Command System" width="400"/>
+      <br/>
+      <strong>Admin Command System</strong>
+      <br/>
+      <em>Powerful administrative controls with IRC-style commands</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/command_execution.png" alt="Command Execution" width="400"/>
+      <br/>
+      <strong>Command Execution</strong>
+      <br/>
+      <em>Live demonstration of /nuke, /cloak, and /impersonate commands</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/global_controls.png" alt="Global Session Controls" width="400"/>
+      <br/>
+      <strong>Global Session Controls</strong>
+      <br/>
+      <em>Kill switch and revival capabilities for emergency situations</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/user_impersonation.png" alt="User Impersonation" width="400"/>
+      <br/>
+      <strong>User Impersonation</strong>
+      <br/>
+      <em>Advanced identity management for testing and administration</em>
+    </td>
+  </tr>
+</table>
+
+### 📱 Responsive Design Showcase
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/mobile_interface.png" alt="Mobile Interface" width="300"/>
+      <br/>
+      <strong>Mobile Interface</strong>
+      <br/>
+      <em>Fully responsive design optimized for mobile devices</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/tablet_view.png" alt="Tablet View" width="400"/>
+      <br/>
+      <strong>Tablet View</strong>
+      <br/>
+      <em>Adaptive layout that scales perfectly across all screen sizes</em>
+    </td>
+  </tr>
+</table>
+
+### 🎨 UI/UX Design Elements
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/cyberpunk_theme.png" alt="Cyberpunk Aesthetics" width="400"/>
+      <br/>
+      <strong>Cyberpunk Aesthetics</strong>
+      <br/>
+      <em>Neon red theme with smooth animations and hover effects</em>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 🌟 What Makes This Special
 
 This application represents a **one-of-a-kind** achievement in rapid development:
@@ -39,13 +188,13 @@ This application represents a **one-of-a-kind** achievement in rapid development
 - ⏱️ **Built in 7 days** by a single person
 - 🤖 **AI-assisted development** using free-tier tools
 - 💡 **Original concept** - completely unique idea and implementation
-- 🔒 **Production-ready security** with AES-256-GCM encryption
+- 🔐 **Production-ready security** with AES-256-GCM encryption
 - 🚀 **Real-time capabilities** with WebSocket integration
 - 📱 **Responsive design** that works on all devices
 
 ## 🛡️ Core Features
 
-### 🔐 **Military-Grade Security**
+### 🔒 **Military-Grade Security**
 - **AES-256-GCM encryption** for all messages and files
 - **PBKDF2-HMAC-SHA256** key derivation with 100,000 iterations
 - **Bcrypt password hashing** with salt rounds
@@ -100,23 +249,26 @@ This application represents a **one-of-a-kind** achievement in rapid development
                     └────────────────────────────┘
 ```
 
-## 🎮 Feature Demonstration
 
-### 🔐 How It Works
-1. **Authentication**: Secure login with bcrypt-hashed passwords
-2. **Session Creation**: Generate cryptographically secure URLs
-3. **Join Chat**: Connect using 11-digit session keys
-4. **Unlock Mechanism**: Unique 7-click unlock for maximum security
-5. **Encrypted Communication**: All messages encrypted with AES-256-GCM
 
-### 👨‍💼 Admin Features
+### 👨‍💼 Available Features
 ```bash
-/nuke          # Kill all active sessions
-/revive        # Restore global session access
-/cloak         # Hide current session from new users
-/impersonate [name]  # Change display name
-/status        # View system status
-/mute          # Toggle sound notifications
+# Current Version Features:
+✅ AES-256-GCM Message Encryption
+✅ Bcrypt Password Authentication  
+✅ Secure Session Generation
+✅ File Upload/Download (16MB limit)
+✅ 7-Click Unlock Mechanism
+✅ Real-time Message Polling
+✅ QR Code Access Links
+✅ Mobile Responsive Design
+
+# Advanced Features (Contact for Access):
+🔒 Admin Command System (/nuke, /cloak, /impersonate)
+🔒 WebSocket Real-time Messaging  
+🔒 Special Message Types (!whisper, !alert)
+🔒 Session Cloaking & Revival
+🔒 Advanced User Management
 ```
 
 ### ✨ Special Message Types
@@ -258,7 +410,7 @@ This application is a testament to what's possible with modern AI-assisted devel
 - **Technical Questions**: Within 48 hours
 - **Custom Development**: Initial consultation within 24 hours
 
-### 🔐 Confidentiality:
+### 🔏 Confidentiality:
 All inquiries are treated with strict confidentiality. NDAs available upon request for detailed technical discussions.
 
 ---
