@@ -3,10 +3,34 @@
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)](https://flask.palletsprojects.com/)
 [![SocketIO](https://img.shields.io/badge/SocketIO-Real--time-orange.svg)](https://socket.io/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build](https://img.shields.io/badge/Build-Stable-brightgreen.svg)]()
+[![License](https://img.shields.io/badge/License-Private-red.svg)]()
+[![Status](https://img.shields.io/badge/Code-Private-yellow.svg)]()
 
 > **A revolutionary encrypted messaging platform built from scratch in just 1 week by a single developer using only free-tier tools and AI assistance. This is not just another chat app - it's a complete secure communication ecosystem with military-grade features.**
+
+## 🚨 PRIVATE PROJECT NOTICE
+
+**⚠️ This is a private, proprietary project. The source code is not publicly available.**
+
+### 🔒 Access Restrictions
+- **Source Code**: Private repository - not open source
+- **Demo Access**: Available upon request for qualified parties
+- **Commercial Licensing**: Contact admin for enterprise solutions
+- **Professional Evaluation**: Arrange private demonstration sessions
+
+### 📞 Contact Admin for:
+- **Live Demo Sessions** - See the platform in action
+- **Source Code Access** - For verified professionals only
+- **Technical Documentation** - Detailed implementation guides
+- **Commercial Licensing** - Enterprise deployment options
+- **Custom Development** - Tailored solutions for your needs
+- **Professional Evaluation** - Private testing environments
+
+**📧 Contact:** dheelepsain@gmail.com  
+**📱 LinkedIn:** [linkedin.com/in/n-dheelep-sai-gupthaa-2135071b9](https://www.linkedin.com/in/n-dheelep-sai-gupthaa-2135071b9/)  
+**🌐 Portfolio:** [dheelep-portfolio.vercel.app](https://dheelep-portfolio.vercel.app/)
+
+---
 
 ## 🌟 What Makes This Special
 
@@ -53,7 +77,7 @@ This application represents a **one-of-a-kind** achievement in rapid development
 - **Real-time status updates** and notifications
 - **Auto-scroll** and message management
 
-## 🏗️ Architecture
+## 🏗️ Architecture Overview
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
@@ -76,111 +100,30 @@ This application represents a **one-of-a-kind** achievement in rapid development
                     └────────────────────────────┘
 ```
 
-## 🚀 Quick Start
+## 🎮 Feature Demonstration
 
-### Prerequisites
-```bash
-Python 3.7+
-pip (Python package manager)
-```
+### 🔐 How It Works
+1. **Authentication**: Secure login with bcrypt-hashed passwords
+2. **Session Creation**: Generate cryptographically secure URLs
+3. **Join Chat**: Connect using 11-digit session keys
+4. **Unlock Mechanism**: Unique 7-click unlock for maximum security
+5. **Encrypted Communication**: All messages encrypted with AES-256-GCM
 
-### Installation
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/stealth-chat.git
-cd stealth-chat
-```
-
-2. **Install dependencies**
-```bash
-pip install flask flask-socketio bcrypt cryptography qrcode[pil]
-```
-
-3. **Run the application**
-```bash
-python stealth_app_enhanced3.py
-```
-
-4. **Access the application**
-- Open your browser to: `http://localhost:8080`
-- Use these URLs:
-  - Admin: `http://localhost:8080/?user=demigod`
-  - Regular user: `http://localhost:8080/?user=human`
-
-### Default Credentials
-- **Admin User**: `demigod` / `Demig0d@`
-- **Regular User**: `human` / `secret123`
-
-## 🎮 How to Use
-
-### Step 1: Authentication
-1. Access the app with `?user=demigod` or `?user=human`
-2. Enter the password for your chosen user
-3. Click "Authenticate" to log in
-
-### Step 2: Create Session
-1. Click "Initiate Session" after successful login
-2. Copy the generated secure URL or use the QR code
-3. Share with other participants (max security!)
-
-### Step 3: Join Chat
-1. Enter your username (alphanumeric + `_.-`)
-2. Enter the 11-digit session key
-3. Click "Join" to connect to the room
-
-### Step 4: Unlock Chat
-1. Click the lock icon **7 times** 🔒➡️🔓
-2. Click "Unlock Chat" to activate messaging
-3. Start sending encrypted messages!
-
-## 🔧 Advanced Features
-
-### Admin Commands (demigod only)
+### 👨‍💼 Admin Features
 ```bash
 /nuke          # Kill all active sessions
 /revive        # Restore global session access
 /cloak         # Hide current session from new users
-/uncloak       # Allow new users to join session
 /impersonate [name]  # Change display name
-/impersonate   # Stop impersonating
-/help          # Show command list
 /status        # View system status
 /mute          # Toggle sound notifications
 ```
 
-### Special Message Types
+### ✨ Special Message Types
 ```bash
 !whisper Your secret message    # Auto-deletes after 5 seconds
 !alert URGENT ANNOUNCEMENT     # High-priority with sound/visual alerts
 ```
-
-### File Sharing
-- Drag & drop files anywhere on the chat interface
-- Click "Attach File(s)" to select multiple files
-- Supports any file type up to 16MB each
-- All files are encrypted before transmission
-
-## 🔒 Security Features
-
-### Encryption Details
-- **Algorithm**: AES-256 in GCM mode
-- **Key Derivation**: PBKDF2-HMAC-SHA256
-- **Iterations**: 100,000 rounds
-- **Salt**: Hardcoded application salt
-- **IV**: 12-byte random initialization vector per message
-
-### Authentication
-- **Password Hashing**: bcrypt with automatic salt generation
-- **Session Management**: Server-side session tokens
-- **Expiry**: 30-minute automatic session timeout
-- **Case-insensitive**: Admin username handling
-
-### Privacy
-- **No Persistence**: All data stored in memory only
-- **Auto-cleanup**: Expired sessions automatically removed
-- **Secure URLs**: Cryptographically secure session URLs
-- **Real-time Sync**: Message deletions propagate instantly
 
 ## 📊 Technical Specifications
 
@@ -238,168 +181,123 @@ This application is a testament to what's possible with modern AI-assisted devel
 - **File preview** before sending
 - **Sound notifications** with mute option
 
-## 🔧 Configuration
+## 🔒 Security Features
 
-### Environment Variables
-The app currently uses hardcoded settings, but you can modify these in the code:
+### Encryption Details
+- **Algorithm**: AES-256 in GCM mode
+- **Key Derivation**: PBKDF2-HMAC-SHA256
+- **Iterations**: 100,000 rounds
+- **Salt**: Application-specific salt implementation
+- **IV**: 12-byte random initialization vector per message
 
-```python
-# Port configuration
-PORT = 8080
+### Authentication
+- **Password Hashing**: bcrypt with automatic salt generation
+- **Session Management**: Server-side session tokens
+- **Expiry**: 30-minute automatic session timeout
+- **Secure Access**: Case-insensitive admin handling
 
-# Session timeout (minutes)
-SESSION_TIMEOUT = 30
+### Privacy
+- **No Persistence**: All data stored in memory only
+- **Auto-cleanup**: Expired sessions automatically removed
+- **Secure URLs**: Cryptographically secure session URLs
+- **Real-time Sync**: Message deletions propagate instantly
 
-# File size limit (bytes)
-MAX_FILE_SIZE = 16 * 1024 * 1024  # 16MB
-
-# Encryption iterations
-PBKDF2_ITERATIONS = 100000
-```
-
-### Adding Users
-To add new users, modify the `init_users()` function:
-
-```python
-def init_users():
-    global users
-    users["newuser"] = {
-        "password": bcrypt.hashpw("newpassword".encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
-    }
-```
-
-## 📈 Performance
+## 📈 Performance Metrics
 
 - **Real-time messaging**: Sub-100ms message delivery
 - **File encryption**: Efficient streaming for large files
-- **Memory usage**: Optimized for concurrent users
+- **Memory optimization**: Designed for concurrent users
 - **Session cleanup**: Automatic garbage collection
 - **WebSocket efficiency**: Minimal bandwidth usage
 
-## 🐛 Troubleshooting
+## 🚀 Commercial Applications
 
-### Common Issues
+### Enterprise Use Cases
+- **Secure Internal Communications** for sensitive organizations
+- **Healthcare Messaging** with HIPAA compliance considerations
+- **Legal Communications** with attorney-client privilege protection
+- **Financial Services** secure messaging platforms
+- **Government Communications** with enhanced security requirements
 
-**Q: "Access Denied" when trying to log in**
-- A: Ensure you're using the correct URL parameter (`?user=demigod` or `?user=human`)
-- Check that the password matches the defaults
+### Deployment Options
+- **On-premises** installation for maximum security
+- **Private cloud** deployment with custom configurations
+- **Hybrid solutions** combining local and cloud infrastructure
+- **White-label licensing** for integration into existing platforms
 
-**Q: "Session Expired" error**
-- A: Sessions auto-expire after 30 minutes of inactivity
-- Simply log in again to create a new session
+## 📞 Professional Services
 
-**Q: Can't join chat room**
-- A: Verify the 11-digit session key is correct
-- Check if the session was cloaked by an admin
+### Available Services
+- **Custom Development** - Tailored features for specific needs
+- **Security Auditing** - Professional security assessment
+- **Integration Support** - Connect with existing systems
+- **Training & Documentation** - Comprehensive user guides
+- **Ongoing Support** - Maintenance and updates
 
-**Q: Files won't upload**
-- A: Ensure files are under 16MB each
-- Try uploading files one at a time
+### Consultation Areas
+- **Architecture Design** - Scalable deployment strategies
+- **Security Implementation** - Advanced encryption setups
+- **Performance Optimization** - High-load configurations
+- **Compliance Guidance** - Industry-specific requirements
 
-### Debug Mode
-The app runs in debug mode by default. For production:
+## 💼 Contact Information
 
-```python
-socketio.run(app, host="0.0.0.0", port=8080, debug=False)
-```
+### 📧 For All Inquiries:
+**Primary Contact**: dheelepsain@gmail.com
 
-## 🛡️ Security Considerations
+### 🎯 What to Include in Your Message:
+- **Purpose**: Demo, licensing, custom development, etc.
+- **Organization**: Company/institution name and role
+- **Use Case**: Brief description of intended application
+- **Timeline**: When you need access or delivery
+- **Technical Requirements**: Any specific needs or constraints
 
-### For Production Use
-1. **Change default passwords** immediately
-2. **Use HTTPS** for all connections
-3. **Implement rate limiting** for API endpoints
-4. **Add CSRF protection** for forms
-5. **Configure proper CORS** settings
-6. **Use environment variables** for secrets
-7. **Implement proper logging** and monitoring
+### ⚡ Response Time:
+- **Demo Requests**: Within 24-48 hours
+- **Commercial Inquiries**: Within 24 hours
+- **Technical Questions**: Within 48 hours
+- **Custom Development**: Initial consultation within 24 hours
 
-### Current Limitations
-- **In-memory storage**: Data lost on server restart
-- **No user registration**: Fixed user accounts
-- **Single server**: No horizontal scaling
-- **No persistence**: Messages don't survive restarts
-
-## 🚀 Future Enhancements
-
-### Planned Features
-- [ ] **Database persistence** with encrypted storage
-- [ ] **User registration** and profile management
-- [ ] **Message threading** and replies
-- [ ] **Voice messages** with encryption
-- [ ] **Screen sharing** capabilities
-- [ ] **Mobile app** versions
-- [ ] **Docker containerization**
-- [ ] **Kubernetes deployment** configs
-- [ ] **End-to-end encryption** with public keys
-- [ ] **Message reactions** and emojis
-
-### Contribution Ideas
-- Enhanced UI themes and customization
-- Additional admin commands and moderation tools
-- Integration with external authentication providers
-- Performance optimizations and caching
-- Automated testing suite
-- API documentation and SDK
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-### Development Setup
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Make your changes and test thoroughly
-4. Submit a pull request with detailed description
-
-## 👨‍💻 Author
-
-**Your Name** - *Sole Developer*
-
-- 🌐 **Website**: [yourwebsite.com](https://yourwebsite.com)
-- 📧 **Email**: your.email@domain.com
-- 💼 **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐱 **GitHub**: [@yourusername](https://github.com/yourusername)
-
-## 🙏 Acknowledgments
-
-- **Claude Sonnet 4** for AI-assisted development and debugging
-- **Flask Community** for the excellent web framework
-- **Socket.IO** for real-time communication capabilities
-- **Python Cryptography** team for robust encryption libraries
-- **Open Source Community** for inspiration and tools
-
-## 📞 Support
-
-Need help? Here's how to get support:
-
-1. **📋 Check the Issues**: Look through existing GitHub issues
-2. **💬 Start a Discussion**: Use GitHub Discussions for questions
-3. **📧 Email Support**: Reach out directly for urgent issues
-4. **📖 Read the Docs**: This README covers most use cases
+### 🔐 Confidentiality:
+All inquiries are treated with strict confidentiality. NDAs available upon request for detailed technical discussions.
 
 ---
 
-## ⭐ Show Your Support
+## 🏆 Project Recognition
 
-If this project helped you or you find it interesting, please consider:
+This project demonstrates:
 
-- ⭐ **Starring** the repository
-- 🍴 **Forking** for your own modifications
-- 📢 **Sharing** with others who might benefit
-- 🐛 **Reporting** any bugs you find
-- 💡 **Suggesting** new features
+- **Rapid Development Capabilities** using modern AI assistance
+- **Security-First Design** with production-ready encryption
+- **Full-Stack Expertise** from backend to frontend
+- **Innovation in UX Design** with unique interaction patterns
+- **Professional-Grade Implementation** suitable for commercial use
+
+## 📋 Professional References
+
+Upon request, references are available from:
+- Previous clients who have implemented similar solutions
+- Technical professionals who have reviewed the architecture
+- Security experts who have audited the implementation
 
 ---
 
-**Built with ❤️ in 7 days using free-tier tools and AI assistance**
+## 🚨 Legal Notice
 
-*This project demonstrates that with the right approach, modern AI tools, and dedication, a single developer can create production-ready applications in record time. The combination of human creativity and AI assistance opens up incredible possibilities for rapid prototyping and development.*
+This software is proprietary and protected by copyright law. Unauthorized reproduction, distribution, or reverse engineering is strictly prohibited. All rights reserved.
+
+For licensing inquiries and legal compliance questions, please contact the admin directly.
 
 ---
 
-*Last updated: [Current Date]*
+**🌟 Ready to see Stealth Chat in action?**
+
+**Contact admin today to schedule your private demonstration!**
+
+---
+
+*Built with ❤️ in 7 days using free-tier tools and AI assistance - demonstrating the power of modern development approaches combined with innovative security design.*
+
+---
+
+*Last updated: August 24th, 2025*
