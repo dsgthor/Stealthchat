@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-2.0+-green.svg)](https://flask.palletsprojects.com/)
 [![SocketIO](https://img.shields.io/badge/SocketIO-Real--time-orange.svg)](https://socket.io/)
-[![License](https://img.shields.io/badge/License-Private-red.svg)]()
+[![License](https://img.shields.io/badge/License-Commercial-red.svg)](LICENSE)
 [![Status](https://img.shields.io/badge/Code-Private-yellow.svg)]()
 
 > **A revolutionary encrypted messaging platform built from scratch in just 1 week by a single developer using only free-tier tools and AI assistance. This is not just another chat app - it's a complete secure communication ecosystem with military-grade features.**
@@ -284,9 +284,11 @@ Upon request, references are available from:
 
 ## 🚨 Legal Notice
 
-This software is proprietary and protected by copyright law. Unauthorized reproduction, distribution, or reverse engineering is strictly prohibited. All rights reserved.
+This software is proprietary and protected by copyright law and a comprehensive Commercial License Agreement. Unauthorized reproduction, distribution, reverse engineering, or commercial use is strictly prohibited and may result in legal action.
 
-For licensing inquiries and legal compliance questions, please contact the admin directly.
+**© 2025 N. Dheelep Sai Gupthaa. All Rights Reserved.**
+
+For licensing inquiries and legal compliance questions, please contact: dheelepsain@gmail.com
 
 ---
 
